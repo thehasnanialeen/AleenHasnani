@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('Poppins-Regular') url(./assets/fonts/Poppins-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: local('Lato-Regular') url(./assets/fonts/Lato-Regular.ttf) format('ttf');
+}
+
+body {
+  margin: 0;
+  font-family:  'Poppins-Regular', 'lato-Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,17 +1,39 @@
 .introduction {
     display: flex;
-    justify-content: space-around;
-    height: calc(100vh - 100px);
+    justify-content: center;
+    height: 68vh;
     position: relative;
+    background-color: #17051e;
+    color: white;
+    padding: 0vw 10vw;
+    
+    svg:first-child {
+        position: absolute;
+        top: 0;
+        left: 10vw;
+        max-width: 250px;
+    }
 
-    .name{
-        margin: auto;
-        padding: 0 20px;
-        position: relative;
-        min-width: 500px;
+    svg:last-child {
+        position: absolute;
+        bottom: 0;
+        right: 10vw;
+        max-width: 250px;
+        rotate: 180deg;
     }
 
     .name{
+        padding: 20px 50px 20px 40px;
+        position: relative;
+        min-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .name{
+        
+
         p{
             font-size: 3em;
             font-weight: bolder;
@@ -35,13 +57,14 @@
         vertical-align: middle;
         position: relative;
         align-content: center;
-        margin: auto 120px auto auto;
-        padding: 0 20px;
+        // margin: auto 120px auto auto;
+        padding: 0 50px 0 40px;
 
         img{
-            height: 300px;
-            width: 300px;
+            height: 250px;
+            width: 250px;
             border-radius: 150px;
+            box-shadow: 0 0 10px white;
         }
 
         span{
@@ -96,16 +119,13 @@
     }
 }
 
-// .name::before{
-//     content: "";
-//     position: absolute;
-//     width: 60px;
-//     height: 60px;
-//     top: -3px;
-//     left: -40px;
-//     border-radius: 10px;
-//     background: linear-gradient(142deg, rgba(255,255,255,1) 0%, rgb(52, 53, 54) 47%, rgba(255,255,255,1) 100%);;
-//     background-size: 200% 200%;
-//     opacity: 0.5;
-//     animation: gradient 5s ease infinite;
-// }
+.svg-curve {
+    fill: none;
+    width: 100%;
+    display: block;
+
+    path {
+        fill: #17051e;
+    }
+}
+

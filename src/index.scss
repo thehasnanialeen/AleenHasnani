@@ -1,16 +1,27 @@
 @font-face {
   font-family: 'Poppins-Regular';
-  src: local('Poppins-Regular') url(./assets/fonts/Poppins-Regular.ttf) format('ttf');
+  src: local('Poppins-Regular') url(./assets/fonts/Poppins-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Lato-Regular';
-  src: local('Lato-Regular') url(./assets/fonts/Lato-Regular.ttf) format('ttf');
+  src: local('Lato-Regular') url(./assets/fonts/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url(./assets/fonts/Caveat.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./assets/fonts/Montserrat.ttf) format('truetype');
 }
 
 body {
   margin: 0;
-  font-family:  'Poppins-Regular', 'lato-Regular';
+  font-family: 'Poppins-Regular', 'lato-Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(43, 105, 251, 0.06);
 }

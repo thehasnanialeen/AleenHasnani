@@ -1,0 +1,110 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-box {
+    position: relative;
+    background-color: white;
+    border: 2px solid #ccc; /* Border around the box */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    max-width: 800px;
+    margin-inline: 10vw;
+    padding: 40px;
+    margin-bottom: 1.5em;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        line-height: 1.6;
+        margin: 0;
+        text-align: justify; /* Justify text for neatness */
+    }
+
+    .resume {
+        width: 100px;
+        padding: 10px 5px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 20px;
+        background-color: #17051e;
+        color: white;
+        vertical-align: middle;
+    }
+
+    .resume:hover {
+        background-color: #2c0f4d;
+        cursor: pointer;
+    }
+}
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 10vw;
+
+    h3 {
+        width: fit-content;
+        font-family: 'Caveat', sans-serif;
+        font-size: 2.5em;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: inline-block; /* Ensures underline width matches text */
+        text-decoration: underline;
+        text-decoration-color: transparent;
+        background-image: linear-gradient(to right, rgba(187,196,72,1), rgba(0,0,0,1));;
+        background-position: 0 100%; /* Position the gradient at the bottom */
+        background-repeat: no-repeat;
+        background-size: 100% 3px; /* Adjust thickness of the underline */
+    }
+
+    .awards-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5em;
+    }
+
+    .award {
+        display: flex;
+        position: relative;
+        margin: 0.5em 0;
+        border-radius: 15px;
+        height: auto;
+        box-shadow: -1px -1px 10px 1px rgb(45 76 80 / 10%); 
+        overflow: hidden;
+    }
+
+    .background-image img{
+        width: 100%;
+        min-height: 70%;
+    }
+
+    .award-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: white 0px -20px 50px 50px;
+        font-family: 'Montserrat', sans-serif;
+
+        h2 {
+            font-size: 1.3rem;
+            margin: 10px 0;
+        }
+
+        p {
+            margin: 0;
+            margin-bottom: 15px;
+        }
+    }
+}

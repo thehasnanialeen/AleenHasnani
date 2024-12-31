@@ -1,0 +1,22 @@
+.section-heading {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-family: 'Caveat', sans-serif;
+        align-items: center;
+        margin-block-end: 0.1em;
+        font-size: 3.5em;
+        font-weight: 500;
+    }
+
+    .heading-style {
+        width: 20px;
+        height: 7px;
+        background: linear-gradient(to right, rgba(187,196,72,1), rgba(0,0,0,1));
+        border-radius: 5px;
+    }
+}

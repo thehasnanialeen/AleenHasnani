@@ -1,20 +1,18 @@
 .navbar {
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: #17051e;
     color: white;
     font-size: 30px;
-    height: 100px;
+    height: 20vh;
 
     .nav-logo{
         display: flex;
         align-items: center;
 
         img{
-            height: 100px;
             width: 100px;
             vertical-align: middle;
-            margin: 5px 0;
         }
     }
 

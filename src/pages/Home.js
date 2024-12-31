@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import Introduction from "../components/Introduction/introduction";
+import About_Myself from "../components/About_Myself/about_myself";
+import Projects from "../components/Projects/projects";
+import ContactMe from "../components/Contact_Me/contact_me";
 //components
 //import DataDetails from '../components/DataDetails';
 //import Form from "../components/Form";
@@ -26,6 +29,9 @@ const Home = () => {
     return (
         <div className="home">
             <Introduction></Introduction>
+            <About_Myself></About_Myself>
+            {/* <Projects></Projects> */}
+            <ContactMe></ContactMe>
             {/* <div className="data">
                 {datas && datas.map((data) => (
                     <DataDetails key={data._id} data={data}/>
